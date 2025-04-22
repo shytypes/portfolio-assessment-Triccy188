@@ -2,9 +2,63 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
-/*title text style*/
-/* the font-family 'JetBrains Mono', has been linked
- * and is available for your use
- * */
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'JetBrains Mono';
+  background: #f4f4f4;
+  color: #333;
+}
+header {
+  background: #0077cc;
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+  font-size: 24px;
+}
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
+}
+section {
+  margin-bottom: 2rem;
+}
+.image{
+  border-radius: 10px;
+  width: 53em;
+  height: 35em;
+  gap: 20px;
+}
+h2 {
+  color: #0077cc;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.3rem;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li::before {
+  content: "✔️ ";
+  color: green;
+}
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #0077cc;
+  color: white;
+}
